@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.paco.projecte_integrat.Fragments.LoginFragment">
+
+    <EditText
+        android:id="@+id/cajaContrasenya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/cajaCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Correo"
+        android:inputType="textPersonName"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/botonAcceder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Acceder" />
+
+    <Button
+        android:id="@+id/botonRegistrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Registro" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_weight="0">
+
+        <ImageButton
+            android:id="@+id/imageButtonFacebook"
+            android:layout_width="69dp"
+            android:layout_height="66dp"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            app:srcCompat="@drawable/facelogobueno" />
+
+        <ImageButton
+            android:id="@+id/imageButtonGmail"
+            android:layout_width="70dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            app:srcCompat="@drawable/gmaillogo"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
