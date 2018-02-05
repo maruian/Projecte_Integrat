@@ -28,6 +28,8 @@ public class MainActivity extends AppCompatActivity  {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //Añadimos comentario prueba
+
 
         //Cargamos el fragmento de login
         lanzarFragmentLogin();
